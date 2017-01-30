@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mohamed Hegazy's Resume</title>
+    <!--<link rel="stylesheet" href="resume.css" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+           header {
+                 border-bottom: 2px solid gray;
+                  padding: 1.5% 0 2.5% 0; 
+                  overflow: hidden;
+           } 
+           body {
+               max-width: 900px;
+               margin: auto;
+               background-color: grey;
+           }
+           .container-fluid{
+               background-color: #FFF;
+           }
+          
+           .profilePic {
+                  height: 15%;
+                  width: 15%;
+                  border-radius: 50%;
+                  border: 2px solid #005a5b;
+              }
+              @media(max-width:768px) {
+                  .profilePic {
+                      display: none;
+                  }
+              }
+              .personalData img {
+                  width: 5%;
+                  height: 5%;
+                  margin-right: 2%; 
+              }
+              meter {
+                  width: 50%;
+                  float: right;
+                  margin-right: 5%;  
+              }
+              meter::-webkit-meter-optimum-value {
+                   background-color: #2b5b7d;
+                  background: #005a5b;
+              }
+               time,.name strong {
+                  color: #005a5b;
+              }
+              time {
+                  font-size: 70%;
+              }
+              .companyName{
+                  margin-bottom: 0;
+              }
+              .skills p {
+                  display: inline;
+                  font-size: 13px;
+                  font-family: sans-serif;
+                  text-align: left; 
+              }
+              .skills li {
+                  padding-bottom: 5%;
+              }
+               .perDataList {
+                   /*float: right;*/
+                   padding-top: 0.5%;
+               }
+               .experience p {
+                  margin-top: 1.5%;
+                  font-size: 15px;
+              }
+              .name p {
+                  font-size: 12px;
+                   color:  #000d21;           
+              }
+              footer {
+                  text-align: center;
+              }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <section class="name col-md-4 col-sm-6">
+                    <h1>Mohamed Hegazy</h1>
+                    <p><strong>Software Engineer</strong></p>
+                    <p>5 years of experience as a Software Engineer & Technical Support working for one company MIPS on Banking
+                        and Business solutions .
+                    </p>
+                </section>
+                <img class="profilePic col-md-4 col-sm-6" src="hhh01.jpg" />
+                <section class="perDataList col-md-4 col-sm-6">
+                    <ul class="personalData">
+                        <li><img src="images/images.png" /> Moh_486@yahoo.com</li>
+                        <li><img src="images/phone2.png" />+2-010-69633357</li>
+                        <li><img src="images/linkedin1.jpg" />https://www.linkedin.com/in/mohhg</li>
+                    </ul>
+                </section>
+            </header>
+        </div>
+        <main>
+            <div class="row">
+                <section class="experience col-md-6">
+                    <h2>Experience:</h2>
+                    <h3>Software Engineer.</h3>
+                    <h4 class="companyName">MIPS Software:</h4>
+                    <time datetime="2012-01"><em>Jan. 2012 to present.</em></time>
+                    <p>Software Developer using Embarcadero Delphi D10, Delphi 7 ,Microsoft SQL Server 2005, 2008 And Technical
+                        support.
+                    </p>
+                    <ul>
+                        <li>Worked on rewriting and modifying several projects to Client Server tech.</li>
+                        <li>Part of a team who designed and developed Database and applications of Payroll and Stock control
+                            Systems.
+                        </li>
+                    </ul>
+                    <h5>Applications:</h5>
+                    <ul>
+                        <li>(Business Solutions) Stock Control – Payroll System.</li>
+                        <li>(Banking Solutions) Signature System.</li>
+                    </ul>
+                </section>
+                <section class="skills col-md-6">
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>
+                            <p>Desktop Development</p>
+                            <meter value="10" min="0" max="10" />
+                        </li>
+                        <li>
+                            <p>Database Development</p>
+                            <meter value="10" min="0" max="10" />
+                        </li>
+                        <li>
+                            <p>Delphi
+                                <meter value="10" min="0" max="10" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>.Net/C#
+                                <meter value="7" min="0" max="10" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>HTML/CSS
+                                <meter value="8.2" min="0" max="10" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>JavaScript
+                                <meter value="7.75" min="0" max="10" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Java
+                                <meter value="8.75" min="0" max="10" />
+                            </p>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+            <div class="row">
+                <section class="education col-md-6">
+                    <h2>Education:</h2>
+                    <p>
+                        <strong> Bachelor of Engineering</strong>, Arab Academy for science and technology (AAST) Cairo,
+                        Egypt.
+                    </p> <br>
+                    <p><strong>Major:</strong> <span>Computer Engineering.</span></p>
+                    <p><strong>Graduated:</strong> <span>Spring 2010.</span></p>
+                    <p><strong>Graduation Project:</strong> <span>Face Recognition.</span></p>
+                    <p><strong>Project Grade:</strong> <span>B+</span></p>
+                    <p><strong>Military Status: </strong> <span>Completed 1/12/2011.</span></p>
+
+                    <p><strong>High School Diploma:</strong> General Secondary Certificate (Thanaweyya Amma), Cambridge International
+                        School, 2005
+                    </p>
+                </section>
+                <section class="courses col-md-6">
+                    <h2>Courses:</h2>
+                    <ul>
+                        <li>Java (ITeshare).</li>
+                        <li>MCPD Microsoft Certified Professional Developer ASP.NET (New Horizons).</li>
+                        <li>Android Diploma at Amit Learning.</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row">
+                <section class="Mydata col-md-6">
+                    <h2>Personal Data:</h2>
+                    <p class="placebirth">
+                        Date of Birth: 20/04/1988. <br> Place of Birth: Cairo. <br> Citizenship: Egyptian. <br>
+                    </p>
+                </section>
+                <section class="languages col-md-6">
+                    <h2>Languages:</h2>
+                    <p>Fluent in Arabic & English.</p>
+                </section>
+            </div>
+        </main>
+        <footer class="col-md-12">
+            <strong>References are furnished upon request.</strong>
+        </footer>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
