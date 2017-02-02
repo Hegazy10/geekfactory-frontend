@@ -28,4 +28,4 @@ exports.find = function (arr, match = function (v) {
    if(match(n)) {
        return n;
    }
-};
+}
